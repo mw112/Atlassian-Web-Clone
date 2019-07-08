@@ -65,7 +65,7 @@ a{
      border-radius: 3px;
      color: aliceblue;
      padding: 7px 17px;
-     margin: 0px;
+    
  }
 .login{
     color: grey;
@@ -75,10 +75,13 @@ a{
 }
 .buynow{
     color:#0052cc;
+    padding: 7px 17px;
+    margin: 0px;
 }
 .buynow:hover{
     background-color: lightgrey;
     border-radius: 5px;
+   
 }
 
 /* part two slogan and image */

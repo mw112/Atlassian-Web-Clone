@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body, html {
+
+    height: 100%;
+    width:100%;
+    overflow-x:hidden;
+    
+}
+body{
+    display:none;
+}
+@media (max-width:560px){
+body{
+ display: block;
+ background-color: aliceblue;
+}
+.nav{
+    background-color: aliceblue;
+    padding: 5px;
+    
+ 
+    
+}
+.logo{
+    width: 200px;
+    height:50px;
+    padding: 5px;
+    margin: 0px;
+}
+li{
+    list-style-type: none;
+    
+    
+ 
+}
+a{
+    text-decoration: none;
+  
+    padding: 10px;
+    color: grey;
+    
+ }
+ 
+ .two{
+     display: flex;
+     height: 50px;
+     align-items: center;
+     
+ }
+ .tryfree{
+    background-color: #0052CC;
+    border-radius: 3px;
+    color: aliceblue;
+    padding: 7px 17px;
+    margin: 0px;
+}
+.buynow{
+    color:#0052cc;
+    padding: 10px;
+}
+.buynow:hover{
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+ .leftlogo>li{
+    font-size: 20px;
+    color: #42526E;
+    font-family: sans-serif;
+    padding: 15px;
+    margin: 0px;
+    
+ }
+ .leftlogo>li:hover{
+     background-color: lightgrey;
+ }
+.end:hover{
+    text-decoration-line: underline;
+}
+
+
+}
